@@ -1,0 +1,52 @@
+name: Decompile APK from Google Drive
+
+on:
+  workflow_dispatch:
+
+jobs:
+  decompile:
+    runs-on: ubuntu-latest
+
+    env:
+      SRC_DIR: "src"
+      APK_FILE: "app.apk"
+      APK_URL: "https://drive.google.com/uc?export=download&id=1UDX_BKyjKgidA4hRooB87NxHRvXdoaK3"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Download JADX
+        run: |
+          wget https://github.com/skylot/jadx/releases/download/v1.5.5/jadx-1.5.5.zip
+          unzip jadx-1.5.5.zip
+          chmod +x jadx-1.5.5/bin/jadx
+
+      - name: Download APK from Google Drive
+        run: |
+          wget --no-check-certificate -O ${{ env.APK_FILE }} "${{ env.APK_URL }}"
+
+      - name: Decompile APK
+        run: |
+          rm -rf ${{ env.SRC_DIR }}
+          mkdir -p ${{ env.SRC_DIR }}
+          ./jadx-1.5.5/bin/jadx -d ${{ env.SRC_DIR }} ${{ env.APK_FILE }}
+
+      - name: Commit Decompiled Java
+        run: |
+          git config --local user.name "GitHub Action"
+          git config --local user.email "action@github.com"
+          git add ${{ env.SRC_DIR }}
+          git commit -m "Decompiled APK on $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
