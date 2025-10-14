@@ -24,7 +24,7 @@ jobs:
 
       - name: Download JADX
         run: |
-          apt install jadx
+          sudo apt install -y jadx
 
       - name: Download APK from Google Drive
         run: |
