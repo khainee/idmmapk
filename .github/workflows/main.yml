@@ -24,7 +24,7 @@ jobs:
 
       - name: Download JADX
         run: |
-          brew install jadx
+          apt install jadx
 
       - name: Download APK from Google Drive
         run: |
