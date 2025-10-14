@@ -24,9 +24,7 @@ jobs:
 
       - name: Download JADX
         run: |
-          wget https://github.com/skylot/jadx/releases/download/v1.5.5/jadx-1.5.5.zip
-          unzip jadx-1.5.5.zip
-          chmod +x jadx-1.5.5/bin/jadx
+          brew install jadx
 
       - name: Download APK from Google Drive
         run: |
