@@ -24,9 +24,10 @@ jobs:
 
       - name: Download JADX
         run: |
-          sudo apt update
-          sudo apt install openjdk-17-jdk
-
+          wget https://github.com/skylot/jadx/releases/download/v1.5.3/jadx-1.5.3.zip -O jadx.zip
+          unzip -q jadx.zip
+          chmod +x jadx-1.5.3/bin/jadx
+          
       - name: Download APK from Google Drive
         run: |
           wget --no-check-certificate -O ${{ env.APK_FILE }} "${{ env.APK_URL }}"
