@@ -30,7 +30,7 @@ jobs:
           
       - name: Download APK from Google Drive
         run: |
-          wget --no-check-certificate -O ${{ env.APK_FILE }} "${{ env.APK_URL }}"
+          wget -O ${{ env.APK_FILE }} "${{ env.APK_URL }}"
 
       - name: Decompile APK
         run: |
