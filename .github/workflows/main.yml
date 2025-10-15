@@ -35,7 +35,7 @@ jobs:
         run: |
           rm -rf ${{ env.SRC_DIR }}
           mkdir -p ${{ env.SRC_DIR }}
-          ./jadx-1.5.5/bin/jadx -d ${{ env.SRC_DIR }} ${{ env.APK_FILE }}
+          jadx -d ${{ env.SRC_DIR }} ${{ env.APK_FILE }}
 
       - name: Commit Decompiled Java
         run: |
