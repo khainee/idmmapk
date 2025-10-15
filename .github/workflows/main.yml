@@ -24,9 +24,9 @@ jobs:
 
       - name: Download JADX
         run: |
-          wget https://github.com/skylot/jadx/releases/download/v1.5.3/jadx-1.5.3.zip -O jadx.zip
-          unzip -q jadx.zip
-          chmod +x jadx-1.5.3/bin/jadx
+          wget https://github.com/skylot/jadx/releases/latest/download/jadx-1.5.3.zip -O jadx.zip
+          unzip jadx.zip -d /opt/jadx
+          
           
       - name: Download APK from Google Drive
         run: |
@@ -36,7 +36,7 @@ jobs:
         run: |
           rm -rf ${{ env.SRC_DIR }}
           mkdir -p ${{ env.SRC_DIR }}
-          jadx -d ${{ env.SRC_DIR }} ${{ env.APK_FILE }}
+          /opt/jadx/bin/jadx -d ${{ env.SRC_DIR }} ${{ env.APK_FILE }}
 
       - name: Commit Decompiled Java
         run: |
