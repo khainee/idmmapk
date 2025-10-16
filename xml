@@ -1,40 +1,161 @@
-abc_background_cache_hint_selector_material_dark.xml    abc_background_cache_hint_selector_material_light.xml   abc_btn_colored_text_material.xml                       abc_hint_foreground_material_dark.xml
-abc_hint_foreground_material_light.xml                  abc_primary_text_disable_only_material_dark.xml
-abc_primary_text_disable_only_material_light.xml        abc_primary_text_material_dark.xml                      abc_primary_text_material_light.xml                     abc_search_url_text.xml                                 abc_secondary_text_material_dark.xml
-abc_secondary_text_material_light.xml                   abc_tint_btn_checkable.xml                              abc_tint_default.xml                                    abc_tint_edittext.xml
-abc_tint_seek_thumb.xml                                 abc_tint_spinner.xml                                    abc_tint_switch_track.xml
-checkbox_themeable_attribute_color.xml                  design_box_stroke_color.xml                             design_error.xml
-design_icon_tint.xml                                    m3_appbar_overlay_color.xml                             m3_assist_chip_icon_tint_color.xml                      m3_assist_chip_stroke_color.xml                         m3_button_background_color_selector.xml
-m3_button_foreground_color_selector.xml                 m3_button_outline_color_selector.xml                    m3_button_ripple_color.xml                              m3_button_ripple_color_selector.xml
-m3_calendar_item_disabled_text.xml                      m3_calendar_item_stroke_color.xml                       m3_card_foreground_color.xml                            m3_card_ripple_color.xml                                m3_card_stroke_color.xml                                m3_chip_assist_text_color.xml                           m3_chip_background_color.xml                            m3_chip_ripple_color.xml
-m3_chip_stroke_color.xml                                m3_chip_text_color.xml
-m3_dark_default_color_primary_text.xml                  m3_dark_default_color_secondary_text.xml                m3_dark_highlighted_text.xml                            m3_dark_hint_foreground.xml                             m3_dark_primary_text_disable_only.xml                   m3_default_color_primary_text.xml                       m3_default_color_secondary_text.xml                     m3_elevated_chip_background_color.xml                   m3_highlighted_text.xml                                 m3_hint_foreground.xml
-m3_navigation_bar_item_with_indicator_icon_tint.xml     m3_navigation_bar_item_with_indicator_label_tint.xml    m3_navigation_bar_ripple_color_selector.xml
-m3_navigation_item_background_color.xml                 m3_navigation_item_icon_tint.xml
-m3_navigation_item_ripple_color.xml                     m3_navigation_item_text_color.xml                       m3_popupmenu_overlay_color.xml
-m3_primary_text_disable_only.xml                        m3_radiobutton_ripple_tint.xml                          m3_selection_control_button_tint.xml
-m3_selection_control_ripple_color_selector.xml          m3_slider_active_track_color.xml
-m3_slider_halo_color.xml                                m3_slider_inactive_track_color.xml                      m3_slider_thumb_color.xml
-m3_switch_thumb_tint.xml                                m3_switch_track_tint.xml                                m3_tabs_icon_color.xml                                  m3_tabs_ripple_color.xml
-m3_text_button_background_color_selector.xml            m3_text_button_foreground_color_selector.xml            m3_text_button_ripple_color_selector.xml                m3_textfield_filled_background_color.xml
-m3_textfield_indicator_text_color.xml                   m3_textfield_input_text_color.xml                       m3_textfield_label_color.xml
-m3_textfield_stroke_color.xml                           m3_timepicker_button_background_color.xml               m3_timepicker_button_ripple_color.xml
-m3_timepicker_button_text_color.xml                     m3_timepicker_clock_text_color.xml                      m3_timepicker_display_background_color.xml              m3_timepicker_display_ripple_color.xml                  m3_timepicker_display_stroke_color.xml
-m3_timepicker_display_text_color.xml                    m3_timepicker_secondary_text_button_ripple_color.xml
-m3_timepicker_secondary_text_button_text_color.xml      m3_tonal_button_ripple_color_selector.xml               material_cursor_color.xml
-material_divider_color.xml                              material_on_background_disabled.xml                     material_on_background_emphasis_high_type.xml
-material_on_background_emphasis_medium.xml              material_on_primary_disabled.xml                        material_on_primary_emphasis_high_type.xml
-material_on_primary_emphasis_medium.xml                 material_on_surface_disabled.xml
-material_on_surface_emphasis_high_type.xml              material_on_surface_emphasis_medium.xml                 material_on_surface_stroke.xml
-material_slider_active_tick_marks_color.xml             material_slider_active_track_color.xml                  material_slider_halo_color.xml                          material_slider_inactive_tick_marks_color.xml           material_slider_inactive_track_color.xml                material_slider_thumb_color.xml                         material_timepicker_button_background.xml               material_timepicker_button_stroke.xml                   material_timepicker_clock_text_color.xml                material_timepicker_clockface.xml                       material_timepicker_modebutton_tint.xml                 mtrl_btn_bg_color_selector.xml
-mtrl_btn_ripple_color.xml                               mtrl_btn_stroke_color_selector.xml
-mtrl_btn_text_btn_bg_color_selector.xml                 mtrl_btn_text_btn_ripple_color.xml                      mtrl_btn_text_color_selector.xml                        mtrl_calendar_item_stroke_color.xml                     mtrl_calendar_selected_range.xml                        mtrl_card_view_foreground.xml                           mtrl_card_view_ripple.xml                               mtrl_chip_background_color.xml                          mtrl_chip_close_icon_tint.xml                           mtrl_chip_surface_color.xml                             mtrl_chip_text_color.xml                                mtrl_choice_chip_background_color.xml                   mtrl_choice_chip_ripple_color.xml                       mtrl_choice_chip_text_color.xml                         mtrl_error.xml
-mtrl_fab_bg_color_selector.xml                          mtrl_fab_icon_text_color_selector.xml                   mtrl_fab_ripple_color.xml                               mtrl_filled_background_color.xml                        mtrl_filled_icon_tint.xml                               mtrl_filled_stroke_color.xml                            mtrl_indicator_text_color.xml                           mtrl_navigation_bar_colored_item_tint.xml
-mtrl_navigation_bar_colored_ripple_color.xml            mtrl_navigation_bar_item_tint.xml                       mtrl_navigation_bar_ripple_color.xml
-mtrl_navigation_item_background_color.xml               mtrl_navigation_item_icon_tint.xml
-mtrl_navigation_item_text_color.xml                     mtrl_on_primary_text_btn_text_color_selector.xml
+a.txt
+abc_background_cache_hint_selector_material_dark.xml
+abc_background_cache_hint_selector_material_light.xml
+abc_btn_colored_text_material.xml
+abc_hint_foreground_material_dark.xml
+abc_hint_foreground_material_light.xml
+abc_primary_text_disable_only_material_dark.xml
+abc_primary_text_disable_only_material_light.xml
+abc_primary_text_material_dark.xml
+abc_primary_text_material_light.xml
+abc_search_url_text.xml
+abc_secondary_text_material_dark.xml
+abc_secondary_text_material_light.xml
+abc_tint_btn_checkable.xml
+abc_tint_default.xml
+abc_tint_edittext.xml
+abc_tint_seek_thumb.xml
+abc_tint_spinner.xml
+abc_tint_switch_track.xml
+checkbox_themeable_attribute_color.xml
+design_box_stroke_color.xml
+design_error.xml
+design_icon_tint.xml
+m3_appbar_overlay_color.xml
+m3_assist_chip_icon_tint_color.xml
+m3_assist_chip_stroke_color.xml
+m3_button_background_color_selector.xml
+m3_button_foreground_color_selector.xml
+m3_button_outline_color_selector.xml
+m3_button_ripple_color.xml
+m3_button_ripple_color_selector.xml
+m3_calendar_item_disabled_text.xml
+m3_calendar_item_stroke_color.xml
+m3_card_foreground_color.xml
+m3_card_ripple_color.xml
+m3_card_stroke_color.xml
+m3_chip_assist_text_color.xml
+m3_chip_background_color.xml
+m3_chip_ripple_color.xml
+m3_chip_stroke_color.xml
+m3_chip_text_color.xml
+m3_dark_default_color_primary_text.xml
+m3_dark_default_color_secondary_text.xml
+m3_dark_highlighted_text.xml
+m3_dark_hint_foreground.xml
+m3_dark_primary_text_disable_only.xml
+m3_default_color_primary_text.xml
+m3_default_color_secondary_text.xml
+m3_elevated_chip_background_color.xml
+m3_highlighted_text.xml
+m3_hint_foreground.xml
+m3_navigation_bar_item_with_indicator_icon_tint.xml
+m3_navigation_bar_item_with_indicator_label_tint.xml
+m3_navigation_bar_ripple_color_selector.xml
+m3_navigation_item_background_color.xml
+m3_navigation_item_icon_tint.xml
+m3_navigation_item_ripple_color.xml
+m3_navigation_item_text_color.xml
+m3_popupmenu_overlay_color.xml
+m3_primary_text_disable_only.xml
+m3_radiobutton_ripple_tint.xml
+m3_selection_control_button_tint.xml
+m3_selection_control_ripple_color_selector.xml
+m3_slider_active_track_color.xml
+m3_slider_halo_color.xml
+m3_slider_inactive_track_color.xml
+m3_slider_thumb_color.xml
+m3_switch_thumb_tint.xml
+m3_switch_track_tint.xml
+m3_tabs_icon_color.xml
+m3_tabs_ripple_color.xml
+m3_text_button_background_color_selector.xml
+m3_text_button_foreground_color_selector.xml
+m3_text_button_ripple_color_selector.xml
+m3_textfield_filled_background_color.xml
+m3_textfield_indicator_text_color.xml
+m3_textfield_input_text_color.xml
+m3_textfield_label_color.xml
+m3_textfield_stroke_color.xml
+m3_timepicker_button_background_color.xml
+m3_timepicker_button_ripple_color.xml
+m3_timepicker_button_text_color.xml
+m3_timepicker_clock_text_color.xml
+m3_timepicker_display_background_color.xml
+m3_timepicker_display_ripple_color.xml
+m3_timepicker_display_stroke_color.xml
+m3_timepicker_display_text_color.xml
+m3_timepicker_secondary_text_button_ripple_color.xml
+m3_timepicker_secondary_text_button_text_color.xml
+m3_tonal_button_ripple_color_selector.xml
+material_cursor_color.xml
+material_divider_color.xml
+material_on_background_disabled.xml
+material_on_background_emphasis_high_type.xml
+material_on_background_emphasis_medium.xml
+material_on_primary_disabled.xml
+material_on_primary_emphasis_high_type.xml
+material_on_primary_emphasis_medium.xml
+material_on_surface_disabled.xml
+material_on_surface_emphasis_high_type.xml
+material_on_surface_emphasis_medium.xml
+material_on_surface_stroke.xml
+material_slider_active_tick_marks_color.xml
+material_slider_active_track_color.xml
+material_slider_halo_color.xml
+material_slider_inactive_tick_marks_color.xml
+material_slider_inactive_track_color.xml
+material_slider_thumb_color.xml
+material_timepicker_button_background.xml
+material_timepicker_button_stroke.xml
+material_timepicker_clock_text_color.xml
+material_timepicker_clockface.xml
+material_timepicker_modebutton_tint.xml
+mtrl_btn_bg_color_selector.xml
+mtrl_btn_ripple_color.xml
+mtrl_btn_stroke_color_selector.xml
+mtrl_btn_text_btn_bg_color_selector.xml
+mtrl_btn_text_btn_ripple_color.xml
+mtrl_btn_text_color_selector.xml
+mtrl_calendar_item_stroke_color.xml
+mtrl_calendar_selected_range.xml
+mtrl_card_view_foreground.xml
+mtrl_card_view_ripple.xml
+mtrl_chip_background_color.xml
+mtrl_chip_close_icon_tint.xml
+mtrl_chip_surface_color.xml
+mtrl_chip_text_color.xml
+mtrl_choice_chip_background_color.xml
+mtrl_choice_chip_ripple_color.xml
+mtrl_choice_chip_text_color.xml
+mtrl_error.xml
+mtrl_fab_bg_color_selector.xml
+mtrl_fab_icon_text_color_selector.xml
+mtrl_fab_ripple_color.xml
+mtrl_filled_background_color.xml
+mtrl_filled_icon_tint.xml
+mtrl_filled_stroke_color.xml
+mtrl_indicator_text_color.xml
+mtrl_navigation_bar_colored_item_tint.xml
+mtrl_navigation_bar_colored_ripple_color.xml
+mtrl_navigation_bar_item_tint.xml
+mtrl_navigation_bar_ripple_color.xml
+mtrl_navigation_item_background_color.xml
+mtrl_navigation_item_icon_tint.xml
+mtrl_navigation_item_text_color.xml
+mtrl_on_primary_text_btn_text_color_selector.xml
 mtrl_on_surface_ripple_color.xml
-mtrl_outlined_icon_tint.xml                             mtrl_outlined_stroke_color.xml                          mtrl_popupmenu_overlay_color.xml                        mtrl_tabs_colored_ripple_color.xml                      mtrl_tabs_icon_color_selector.xml                       mtrl_tabs_icon_color_selector_colored.xml
-mtrl_tabs_legacy_text_color_selector.xml                mtrl_tabs_ripple_color.xml                              mtrl_text_btn_text_color_selector.xml                   radiobutton_themeable_attribute_color.xml
-switch_thumb_material_dark.xml                          switch_thumb_material_light.xml                         test_mtrl_calendar_day.xml
+mtrl_outlined_icon_tint.xml
+mtrl_outlined_stroke_color.xml
+mtrl_popupmenu_overlay_color.xml
+mtrl_tabs_colored_ripple_color.xml
+mtrl_tabs_icon_color_selector.xml
+mtrl_tabs_icon_color_selector_colored.xml
+mtrl_tabs_legacy_text_color_selector.xml
+mtrl_tabs_ripple_color.xml
+mtrl_text_btn_text_color_selector.xml
+radiobutton_themeable_attribute_color.xml
+switch_thumb_material_dark.xml
+switch_thumb_material_light.xml
+test_mtrl_calendar_day.xml
 test_mtrl_calendar_day_selected.xml
